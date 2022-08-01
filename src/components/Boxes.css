@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Mouse+Memoirs&display=swap");
+
+.box {
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    border: 1px solid #ffffff;
+    border-radius: 15px;
+    font-family: "Mouse Memoirs", sans-serif;
+    font-size: 7rem;
+    font-weight: bold;
+    text-align: center;
+    margin: 1rem;
+}
+.x {
+    color: #6a5acd;
+}
+.o {
+    color: #d2691e;
+}
+
+.box:hover {
+    box-shadow: 0px 0px 15px #fff;
+}

@@ -1,0 +1,40 @@
+.score-table {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 500px;
+    font-size: 2rem;
+    margin: 3rem auto;
+    border-radius: 7px;
+    color: #20b2aa;
+    font-weight: bold;
+}
+.char-x {
+    color: #6a5acd;
+}
+.char-o {
+    color: #d2691e;
+}
+.score {
+    width: 100%;
+    text-align: center;
+    padding: 1rem 0;
+}
+.x-table {
+    color: #6a5acd;
+    border: 4px solid #6a5acd;
+    border-radius: 1rem;
+    background-color: #fff;
+}
+.o-table {
+    color: #d2691e;
+    border: 4px solid #d2691e;
+    border-radius: 1rem;
+    background: #cffffd;
+}
+.inactive {
+    border: 4px solid transparent;
+    background-color: rgb(102, 180, 176);
+    color: rgb(147, 179, 177);
+}
